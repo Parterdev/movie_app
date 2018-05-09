@@ -84,7 +84,7 @@ export default class Home extends Component {
             </CardItem>
             <Highlights
               itemName="Avengers - Infinity War"
-              itemCreator="Unknown"
+              itemCreator="Marvel Studios"
               itemPrice="$5.50"
               year="2018"
               imageUri={require('../resources/mv_1.jpg')}
