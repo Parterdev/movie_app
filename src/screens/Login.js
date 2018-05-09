@@ -11,7 +11,7 @@ import {
 
 export default class Login extends Component {
 
-  //Initia states. 
+  //Initial states. 
   state = { androidAlertButton: false };
 
   //Functions. 
