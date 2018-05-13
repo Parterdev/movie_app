@@ -14,14 +14,13 @@ export default class Highlights extends Component {
     return(
       <CardItem>
         <Image style={{ height: 150, width: 100 }}
-          source={ this.props.imageUri } 
+          source={this.props.imageUri} 
         />
         <Right style={{ flex: 1, alignItems: 'flex-start', height: 150, paddingHorizontal: 20 }}>
           <Text style={{ fontSize: 14, fontWeight: 'bold' }}><Text>Título: </Text>{this.props.itemName}</Text>
           <Text><Text>Productor: </Text>{this.props.itemCreator}</Text>
           <Text><Text>Precio: </Text>{this.props.itemPrice}</Text>
           <Text><Text>Año: </Text>{this.props.year}</Text>
-
         <StarRating
           disable={true}
           maxStars={5}
