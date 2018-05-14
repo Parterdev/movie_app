@@ -9,6 +9,8 @@ import {
   Alert,
 } from 'react-native';
 
+import TextField from '../components/TextInput';
+
 export default class Login extends Component {
 
   //Initial states. 
@@ -32,15 +34,15 @@ export default class Login extends Component {
         /> 
         </View>
         <View style={styles.inputContainer}>
-          <TextInput
-            placeholder='User'
+          <TextField
+            placeholder={'User'}
             placeholderTextColor='grey'
             editable={true}
             autoCapitalize={'none'}
             underlineColorAndroid='#25ACE1'
           />
-          <TextInput
-            placeholder='Password'
+          <TextField
+            placeholder={'Password'}
             placeholderTextColor='grey'
             editable={true}
             autoCapitalize={'none'}
