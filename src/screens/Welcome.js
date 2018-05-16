@@ -34,6 +34,8 @@ export default class Welcome extends Component {
             <Image style={{ width: 200, height: 200 }}
               source={require('../resources/movie_icon.png')}
             />
+            <Text>Hola mundo</Text>
+
             <Text>Es mi primer component by Alex</Text>
             <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#FFFFFF', marginTop: 40 }}>Aún no tienes una cuenta?</Text>
           </View>
