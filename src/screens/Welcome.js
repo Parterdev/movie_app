@@ -34,6 +34,7 @@ export default class Welcome extends Component {
             <Image style={{ width: 200, height: 200 }}
               source={require('../resources/movie_icon.png')}
             />
+            <Text>SK8</Text>
             <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#FFFFFF', marginTop: 40 }}>Aún no tienes una cuenta?</Text>
           </View>
           <TouchableOpacity>
